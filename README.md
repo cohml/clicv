@@ -27,7 +27,12 @@ For the loading of the filesytem to work locally, you must server the files in
 the directory from a local server. To do this easily, change into the jsterm
 directory and run:
 ```
-python -m SimpleHTTPServer 8000
+python -m http.server
+```
+
+Your server can be viewed locally in the browser at the following URL:
+```
+http://localhost:8000/
 ```
 
 ## Filesystem Format
